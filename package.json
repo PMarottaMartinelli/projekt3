@@ -1,0 +1,11 @@
+{
+  "name": "projekt3",
+  "version": "1.0.0",
+  "description": "Rezeptseite",
+  "main": "index.js",
+  "scripts": {
+    "test": "set PORT=3200"
+  },
+  "author": "Paolo",
+  "license": "ISC"
+}
