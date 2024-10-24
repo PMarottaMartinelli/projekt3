@@ -1,0 +1,23 @@
+extends layout
+block content 
+    .row
+        .col
+            .mx-5
+                
+                h1 #{details.name}
+                table.table
+                    thead 
+                        tr
+                            th Zutaten:
+                    tbody
+                        for zutat in details.zutaten
+                            tr
+                                td=zutat
+                table.table
+                    thead 
+                        tr
+                            th Zubereitung:
+                    tbody
+                        for Schritt in details.zubereitung
+                            tr
+                                td=Schritt
