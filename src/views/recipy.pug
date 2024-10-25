@@ -20,16 +20,16 @@ block content
     div.modal.fade#exampleModal(tabindex="-1" data-backdrop="static" data-keyboard="false")
         div.modal-dialog(style="background-color: var(--bs-body-bg);")
             div.modal-content
-            div.modal-header
-                h5.modal-title Neues Rezept:
-                td
-                button.btn-close(type="button" data-bs-dismiss="modal" aria-label="Close")
-            
-            div.modal-body
-                form.row.g-3#newrecipyform
-                    input.form-control#rezeptTitel(placeholder="Titel eingeben" type="text" )
-                  
-                    input.form-control#rezeptBild(placeholder="Bildpfad" type="text")
-            div.modal-footer
-                button.btn.btn-secondary(type="button" data-bs-dismiss="modal") Schließen
-                button.btn.btn-primary(onclick="createRecipy()" type="button") Rezept speichern
+                div.modal-header
+                    h5.modal-title Neues Rezept:
+                    td
+                    button.btn-close(type="button" data-bs-dismiss="modal" aria-label="Close")
+                
+                div.modal-body
+                    form.row.g-3#newrecipyform
+                        input.form-control#rezeptTitel(placeholder="Titel eingeben" type="text" )
+                    
+                        input.form-control#rezeptBild(placeholder="Bildpfad" type="text")
+                div.modal-footer
+                    button.btn.btn-secondary(type="button" data-bs-dismiss="modal") Schließen
+                    button.btn.btn-primary(onclick="createRecipy()" type="button") Rezept speichern
